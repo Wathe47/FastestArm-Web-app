@@ -1,0 +1,95 @@
+
+        body {
+            font-family: sans-serif;
+            background-image: url(image2.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        #form1 {
+            zoom: 1.4; 
+            -moz-transform: scale(1.4); 
+            -moz-transform-origin: 0 0;
+            width:auto;
+        }
+        
+        #main {
+            zoom: 1.1; 
+            -moz-transform: scale(1.1); 
+            -moz-transform-origin: 0 0;
+            background-color: white;
+            margin: auto;
+            width: 40%;
+            margin-top: 3%;
+        }
+        
+        #main2 {
+            width: 80%;
+            margin: auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        
+        #header {
+            width: 100%;
+        }
+        
+          
+        #name,
+        #gender,
+        #faculty,
+        #phone ,
+        #batch ,
+        #speed {
+            width: 100%;
+            margin-top: 5%;
+        }
+        
+        #submit {
+            width: 100%;
+            margin-left: 0%;
+            margin-bottom: 10%;
+            margin-top: 5%;
+            text-align: left;
+        }
+        
+        #submit input {
+            border: 1px solid black;
+            font-weight: bold;
+            font-size: 17px;
+            height: 37px;
+            width: 100px;
+            background-color: black;
+            border-radius: 5px;
+            color: white;
+        }
+        
+        #submit input:hover {
+            background-color: gray;
+            color: black;
+            border: 1px solid gray;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+        
+        .text-name {
+            color: rgb(102, 101, 101);
+            margin: 5px;
+            font-size: 15px;
+        }
+        
+        .text-box {
+            background-color: rgba(226, 224, 224, 0.5);
+            border: 1px solid rgb(231, 230, 230);
+            border-radius: 0%;
+            height: 60%;
+            width: 90%;
+            margin-top: 0px;
+        }
+        
+        span {
+            color: red;
+        }
+
+        

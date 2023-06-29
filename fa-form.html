@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Fastest Arm</title>
+    <link rel="stylesheet" href="fa.css">
+
+    </head>
+
+<body>
+    <div id="main">
+        <div id="main2">
+
+            <div id="header">
+                <h1 align="center"> Player Registration Form </h1>
+            </div>
+
+            <form id="from1" method="POST" action="./faPost.php" >
+                <!--\http://localhost/fa/fa-form.html-->
+                <!-- ./fa-form.php --> 
+    
+                <div id="name">
+                    <h5 class="text-name">Name </h5>
+                    <input style="width: 95%;" id="name1" class="text-box" type="text" name="name" />
+                </div>
+
+                <div id="gender">
+                    <h5 class="text-name">Gender</h5>
+                    <input type="radio" id="male" name="gender" value="male" checked /> Male
+                    <input type="radio" id="female" name="gender" value="female" /> Female
+                </div>
+
+                <div id="faculty">
+                    <h5 class="text-name">Faculty </h5>
+                    <select class="text-box" id="faculty1" name="faculty">
+                        <option value="-">---Select---</option>
+                        <option value="Engineering">Engineering</option>
+                        <option value="IT">IT</option>
+                        <option value="Architecture">Architecture</option>
+                        <option value="Business">Business</option>
+                        <option value="Medicine">Medicine</option>
+                        </select>
+                </div>         
+                <div id="batch">
+                    <h5 class="text-name">Batch </h5>
+                    <select class="text-box" id="batch1" name="batch">
+                        <option value="-">---Select---</option>
+                        <option value="18">Batch 18</option>
+                        <option value="19">Batch 19</option>
+                        <option value="20">Batch 20</option>
+                        <option value="21">Batch 21</option>
+                        <option value="21">Batch 22</option>
+                        </select>
+                </div>
+                <div id="phone">
+                    <h5 class="text-name">Phone</h5>
+                    <input style="width: 95%;" id="phone1" class="text-box" type="text" name="phone" />
+                </div>
+
+                <div id="speed">
+                    <h5 class="text-name">Speed </h5>
+                    <input style="width: 95%;" id="speed1" class="text-box" type="text" name="speed" />
+                </div>
+
+                <div style="margin-top: 25px;"  id="submit">
+                    <input type="submit"  name="submit"  value="submit">
+                </div>
+            </form>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
